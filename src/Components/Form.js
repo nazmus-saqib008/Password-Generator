@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Form.css'
 
 function Form() {
     const [smallLetter, setSmallLetter] = useState("");
@@ -41,7 +42,7 @@ function Form() {
 
 
     return (
-        <div>
+        <div className='req-form'>
             <div className="card border-primary mb-3 my-4 mx-5 text-start">
                 <div className="card-header">Your Requirements</div>
                 <div className="card-body text-primary">
