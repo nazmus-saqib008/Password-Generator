@@ -119,9 +119,10 @@
 #headers{
     height: 50px;
 }
-.pass{
+.pass {
     border-radius: 10px;
     background-color:white ;
+    font-size: 20px;
 }
 
 @media screen and (max-width:1200px) {
@@ -138,4 +139,11 @@
     .contents{
         width: 300px;
     }
+}
+
+.dispB{
+    display: block;
+}
+.dispN{
+    display: none;
 }
